@@ -14,6 +14,11 @@ The page will reload if you make edits.\
 You will also see any lint errors in the console.
 ### `npm run analyze` :builds the project folder to see the gzipped size
 
+The gziped version is well below the size limit asked 
+![build](image-2.png)
+
+### Site live demo:
+Open [https://country-code-selector.netlify.app/](https://country-code-selector.netlify.app/) to view it in the browser.
 ## Requirements Met:
 
 * Mobile first UI
@@ -36,3 +41,6 @@ You will also see any lint errors in the console.
 * The fully built gzip'd project should be under 806kb.
 ![UI](image.png)
 ![Dropdown Menu](image-1.png)
+
+## External Apis used:
+I have used an external api to render flag images according to the country code: ['https://flagsapi.com/${countryCode}/shiny/32.png'](https://flagsapi.com/${countryCode}/shiny/32.png)
